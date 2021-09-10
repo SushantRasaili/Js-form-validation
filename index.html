@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/sass.css">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>
+                Registration Form
+            </h2>
+        </div>
+        <form class="form" id="forms">
+            <div class="form-control">
+      <label>Username:</label>
+      <input autocomplete="off" type="text" name="" id="username" placeholder="Enter your fullname">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+      <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+      <small id="set"> ERR message </small>
+    </div>
+
+    <div class="form-control">
+        <label>Email:</label>
+        <input autocomplete="off" type="email" name="" id="email" placeholder="Enter your email">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <small> ERR message </small>
+      </div>
+
+      <div class="form-control">
+        <label>Phone:</label>
+        <input autocomplete="off" type="number" name="" id="phone" placeholder="Enter your phone number">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <small> ERR message </small>
+      </div>
+
+      <div class="form-control">
+        <label>Password:</label>
+        <input autocomplete="off" type="password" name="" id="password" placeholder="Enter new password">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <small> ERR message </small>
+      </div>
+
+      <div class="form-control">
+        <label>Confirm Password</label>
+        <input autocomplete="off" type="password" name="" id="cpassword" placeholder="Confirm your password">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <small> ERR message </small>
+      </div>
+      <input type="submit" value="Submit" class="btn" id="buton">
+        </form>
+    </div>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"> </script>
+
+
+
+</body>
+</html>
